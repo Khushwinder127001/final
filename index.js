@@ -6,7 +6,7 @@ axios.get("https://arstechnica.com/gadgets/").then(urlResponse =>{
    
  $('li.article').each((i, element)=>{
     const link = $(element).find("a.overlay").attr("href");
-
+document.write(link);
 console.log(link);
 
 });
